@@ -1,1 +1,4 @@
 /node_modules/lite-server/
+/typescript.iml
+/.idea/
+/node_modules/
