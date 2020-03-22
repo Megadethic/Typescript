@@ -1,6 +1,7 @@
 class Person {
     firstName: string;
     hobby: string;
+    static JOB = 'dev';
 
     constructor(firstName: string) {
         this.firstName = firstName;
@@ -9,6 +10,7 @@ class Person {
     introduceYourself() {
         console.log(this);
         console.log('Hello, my name is ' + this.firstName);
+        console.log(Person.JOB);
     };
 
     sayHobby(this: Person) {

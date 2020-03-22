@@ -5,6 +5,7 @@ var Person = /** @class */ (function () {
     Person.prototype.introduceYourself = function () {
         console.log(this);
         console.log('Hello, my name is ' + this.firstName);
+        console.log(Person.JOB);
     };
     ;
     Person.prototype.sayHobby = function () {
@@ -12,6 +13,7 @@ var Person = /** @class */ (function () {
         console.log('Hello, my hobby is ' + this.hobby);
     };
     ;
+    Person.JOB = 'dev';
     return Person;
 }());
 var p = new Person('Pasha');
